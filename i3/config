@@ -173,3 +173,6 @@ bindsym $mod+p exec systemctl suspend
 
 # Open file manager
 bindsym Control+n exec nautilus --no-desktop
+
+# Open dmenu for Applications
+bindsym Mod1+d exec i3-dmenu-desktop
