@@ -155,11 +155,3 @@ function showClock() {
 	dconf reset /com/canonical/indicator/datetime/time-format 
 	dconf reset /com/canonical/indicator/datetime/custom-time-format 
 }
-
-function beginWork() {
-	hideClock
-	[[ $1 = "" ]] && offset="1h" || offset="{$1}h"
-	sleep $offset
-	showClock
-	zenity --info --text "Take a break!"
-}
