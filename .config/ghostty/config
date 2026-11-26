@@ -1,0 +1,13 @@
+# Quick terminal
+quick-terminal-position = top
+quick-terminal-size = 97.7%
+quick-terminal-autohide = false
+
+# Global hotkey
+keybind = global:shift+f12=toggle_quick_terminal
+
+# Look and feel
+theme = Rose Pine
+background-opacity = 0.8
+background = #0a0a0a
+
